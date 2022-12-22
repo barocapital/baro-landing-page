@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Typewriter from 'typewriter-effect'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,7 +25,19 @@ export default function Home() {
     
         <div className={styles.oneliner}>
           <div className={styles.center}>
-            <h1 className='header'>Sabemos que el efectivo es rey. <span className={styles.gradienttext}>Nosotros solo lo transformamos.</span></h1>
+            {/* <h1 className='header'>Sabemos que el efectivo es rey. <span className={styles.gradienttext}>Nosotros solo lo transformamos.</span></h1> */}
+            <h1>
+              Sabemos que el efectivo es rey.
+            <Typewriter
+            options={{
+              strings: [`Nosotros solo lo transformamos.`, 'Nosotros solo lo avancamos.', 'Nosotros solo lo mejoramos.'],
+              autoStart: true,
+              loop: true,
+              wrapperClassName: `${styles.gradienttext}`,
+              cursorClassName: `${styles.gradienttext}`,
+            }}
+          />
+            </h1>
           </div>
         </div>
         <h2 className={styles.subtext}>50% de la poblacion Mexicana no tiene cuenta de banco, y hacen transacciones mayormente con efectivo. Nuestra mision es incrementar la inclusion financiera atravez de una cryptomoneda estable ligado al Peso Mexicano, <span className={styles.gradienttext}>$BARO.</span></h2>
