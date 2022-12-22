@@ -16,6 +16,7 @@
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
+  border-bottom: 2px solid black;
 }
 
 .description a {
@@ -77,9 +78,10 @@
 
 .card {
   padding: 1rem 1.2rem;
+  margin: 1rem;
   border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
+  background: rgba(var(--card-rgb), 10); 
+  border: 1px solid rgba(var(--card-border-rgb), 25);
   transition: background 200ms, border 200ms;
 }
 
@@ -136,7 +138,7 @@
   content: '';
   left: 50%;
   position: absolute;
-  filter: blur(45px);
+  filter: blur(85px);
   transform: translateZ(0);
 }
 
