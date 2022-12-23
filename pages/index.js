@@ -20,7 +20,7 @@ export default function Home() {
           <p>Baro Capital.</p>
           <a target="_blank" rel='noreferrer' href='https://baro-capital-docs-defi.vercel.app/'>Docs↗</a>
           <a target="_blank" rel='noreferrer' href='https://github.com/barocapital'>Github↗</a>
-          <a target="_blank" rel='noreferrer' href='https://discord.gg/9WcS2Pbn'>Communidad↗</a>
+          <a target="_blank" rel='noreferrer' href='https://discord.gg/aWvVwryA2P'>Communidad↗</a>
         </div>
     
         <div className={styles.oneliner}>
@@ -30,7 +30,7 @@ export default function Home() {
               Sabemos que el efectivo es rey.
             <Typewriter
             options={{
-              strings: [`Nosotros solo lo transformamos.`, 'Nosotros solo lo avancamos.', 'Nosotros solo lo mejoramos.'],
+              strings: [`Nosotros solo lo transformamos.`, 'Nosotros solo lo regeneramos.', 'Nosotros solo lo mejoramos.'],
               autoStart: true,
               loop: true,
               wrapperClassName: `${styles.gradienttext}`,
@@ -40,11 +40,11 @@ export default function Home() {
             </h1>
           </div>
         </div>
-        <h2 className={styles.subtext}>50% de la poblacion Mexicana no tiene cuenta de banco, y hacen transacciones mayormente con efectivo. Nuestra mision es incrementar la inclusion financiera atravez de una cryptomoneda estable ligado al Peso Mexicano, <span className={styles.gradienttext}>$BARO.</span></h2>
+        <h2 className={styles.subtext}>50% de la población Mexicana no tiene cuenta de banco y hacen transacciones principalmente en efectivo. Nuestra misión es incrementar la inclusión financiera a través de una cryptomoneda estable ligada al Peso Mexicano, <span className={styles.gradienttext}>$BARO.</span></h2>
 
         <div className={styles.demo}>
           <div className={styles.center}>
-            <h1 className={styles.center}>No nesecitamos cuentas bancarias, nesecitamos hacer pagos rapidos, seguros, y privados.</h1>
+            <h1 className={styles.center}>No necesitamos cuentas bancarias, necesitamos hacer pagos rápidos, seguros y privados.</h1>
             <iframe className={styles.demovideo} width="623" height="350" src="https://www.youtube.com/embed/z3RBSeJBS5U" title="Vida financiera fácil con baro.capital | Demo 0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function Home() {
         <h1>Equipo Fundador</h1>
         <div className={styles.gridfounders}>
         <a
-          href='https://twitter.com/Richardnotme'
+          href="https://twitter.com/Richardnotme"
           className={styles.card}
           target='_blank'
           rel="noopener noreferrer"
@@ -94,7 +94,7 @@ export default function Home() {
             </h2>
             <p className={styles.gradienttext}>Founding Engineer</p>
             <p className={inter.className}>
-            Desarrollador de Blockchain, Contribuidor DFH del Multi-Chain NFT Visor
+            Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
           </a>
 
@@ -109,7 +109,7 @@ export default function Home() {
             </h2>
             <p className={styles.gradienttext}>Founding Engineer</p>
             <p className={inter.className}>
-            Desarrollador de Blockchain, Contribuidor DFH del Multi-Chain NFT Visor
+            Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
           </a>
 
