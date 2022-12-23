@@ -25,7 +25,7 @@ export default function Home() {
     
         <div className={styles.oneliner}>
           <div className={styles.center}>
-            {/* <h1 className='header'>Sabemos que el efectivo es rey. <span className={styles.gradienttext}>Nosotros solo lo transformamos.</span></h1> */}
+            {/* <h1 className='header'>Sabemos que el efectivo es rey. <span className={styles.subtext}>Nosotros solo lo transformamos.</span></h1> */}
             <h1>
               Sabemos que el efectivo es rey.
             <Typewriter
@@ -33,8 +33,8 @@ export default function Home() {
               strings: [`Nosotros solo lo transformamos.`, 'Nosotros solo lo regeneramos.', 'Nosotros solo lo mejoramos.'],
               autoStart: true,
               loop: true,
-              wrapperClassName: `${styles.gradienttext}`,
-              cursorClassName: `${styles.gradienttext}`,
+              wrapperClassName: `${styles.subtext}`,
+              cursorClassName: `${styles.subtext}`,
             }}
           />
             </h1>
@@ -60,7 +60,7 @@ export default function Home() {
             <h2 className={styles.center}>
               Richard 
             </h2>
-            <p className={styles.gradienttext}>Co-founder</p>
+            <p className={styles.subtext}>Co-founder</p>
             <p className={inter.className}>
             Administrador de riesgos, entusiasta de Blockchain y asesor estratégico de 3 proyectos Web3.
             </p>
@@ -75,7 +75,7 @@ export default function Home() {
             <h2 className={styles.center}>
               Irwing Tello 
             </h2>
-            <p className={styles.gradienttext}>Co-founder</p>
+            <p className={styles.subtext}>Co-founder</p>
             <p className={inter.className}>
             Desarrollador certificado en Blockchain
 5+ años de experiencia y fundador de DFH
@@ -92,7 +92,7 @@ export default function Home() {
             <h2 className={styles.center}>
             Luis Garza 
             </h2>
-            <p className={styles.gradienttext}>Founding Engineer</p>
+            <p className={styles.subtext}>Founding Engineer</p>
             <p className={inter.className}>
             Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
@@ -107,7 +107,7 @@ export default function Home() {
             <h2 className={styles.center}>
               Samuel Polino 
             </h2>
-            <p className={styles.gradienttext}>Founding Engineer</p>
+            <p className={styles.subtext}>Founding Engineer</p>
             <p className={inter.className}>
             Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
@@ -122,7 +122,7 @@ export default function Home() {
             <h2 className={styles.center}>
               Dylan Molina 
             </h2>
-            <p className={styles.gradienttext}>Founding Engineer</p>
+            <p className={styles.subtext}>Founding Engineer</p>
             <p className={inter.className}>
              Desarrollador de Blockchain, Buildspace N&W S1 Cohort
             </p>
