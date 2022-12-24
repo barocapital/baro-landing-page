@@ -41,6 +41,15 @@
 .gradienttext {
   background: -webkit-linear-gradient(#f12711, #f5af19);
   -webkit-background-clip: text;
+   background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.marketplacetext {
+  background: -webkit-linear-gradient(#c33764, #1d2671);
+  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -213,6 +222,9 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .oneliner {
+    padding-top: 0rem;
+  }
   .content {
     padding: 4rem;
   }
@@ -226,9 +238,10 @@
 
   .gridfounders {
     grid-template-columns: 1fr;
-    margin-bottom: 120px;
+    margin-bottom: 0px;
     max-width: 320px;
     text-align: center;
+    width: var(--max-width);
   }
 
   .demovideo {
@@ -259,6 +272,10 @@
 
   .description {
     font-size: 0.8rem;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    border-bottom: none;
   }
 
   .description a {
@@ -302,6 +319,10 @@
     );
     z-index: 1;
   }
+
+  /* .marketplacetext {
+    display: none;
+  } */
 }
 
 /* Tablet and Smaller Desktop */
