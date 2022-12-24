@@ -19,8 +19,10 @@ export default function Home() {
         <div className={styles.description}>
           <p>Baro Capital.</p>
           <a target="_blank" rel='noreferrer' href='https://baro-capital-docs-defi.vercel.app/'>Docs↗</a>
-          <a target="_blank" rel='noreferrer' href='https://github.com/barocapital'>Github↗</a>
-          <a target="_blank" rel='noreferrer' href='https://discord.gg/aWvVwryA2P'>Communidad↗</a>
+          <a target="_blank" rel='noreferrer' href='https://github.com/barocapital'>GitHub↗</a>
+          <a target="_blank" rel='noreferrer' href='https://discord.gg/aWvVwryA2P'>Comunidad↗</a>
+          <a target="_blank" rel='noreferrer' href='https://twitter.com/baro_capital'>Twitter↗</a>
+          <a target="_blank" rel='noreferrer' href='https://baro-capital-marketplace.myshopify.com/'>Marketplace↗</a>
         </div>
     
         <div className={styles.oneliner}>
@@ -94,7 +96,7 @@ export default function Home() {
             </h2>
             <p className={styles.gradienttext}>Founding Engineer</p>
             <p className={inter.className}>
-            Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
+            Desarrollador Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
           </a>
 
@@ -109,7 +111,7 @@ export default function Home() {
             </h2>
             <p className={styles.gradienttext}>Founding Engineer</p>
             <p className={inter.className}>
-            Desarrollador de Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
+            Desarrollador Blockchain, contribuyó en DFH con el Multi-Chain NFT Visor
             </p>
           </a>
 
@@ -124,7 +126,7 @@ export default function Home() {
             </h2>
             <p className={styles.gradienttext}>Founding Engineer</p>
             <p className={inter.className}>
-             Desarrollador de Blockchain, Buildspace N&W S1 Cohort
+             Desarrollador Blockchain, Buildspace N&W S1 Cohort
             </p>
           </a>
         </div>
