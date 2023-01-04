@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
         <h2 className={styles.subtext}>50% de la población Mexicana no tiene cuenta de banco y hacen transacciones principalmente en efectivo. Nuestra misión es incrementar la inclusión financiera a través de una moneda estable ligada al Peso Mexicano, <span className={styles.gradienttext}>$BARO.</span></h2>
-       <a target="_blank" rel='noreferrer' href="https://test-d9i13o2qr-irwingtello.vercel.app/"><button className={styles.card}>Únete a nuestra misión y OBTÉN tu dominio .baro</button></a>
+       <a target="_blank" rel='noreferrer' href="https://barocapital.vercel.app/"><button className={styles.card}>Únete a nuestra misión y OBTÉN tu dominio .baro</button></a>
         <div className={styles.demo}>
           <div className={styles.center}>
             <h1 className={styles.center}>No necesitamos más cuentas bancarias, necesitamos hacer pagos rápidos, seguros y privados.</h1>
